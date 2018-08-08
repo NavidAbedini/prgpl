@@ -14,7 +14,7 @@ describe('AppComponent', () => {
        fixture.detectChanges();
        expect(fixture.componentInstance.points).toBe(1);
        fixture.debugElement.nativeElement.querySelector('button').click();
-       expect(fixture.componentInstance.points).toBe(2);
+       expect(fixture.componentInstance.points).toBe(3);
    }));
 
 });
